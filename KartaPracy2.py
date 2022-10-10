@@ -53,3 +53,18 @@ if 3*s + p >= k:
   print("Tak")
 else:
   print("Nie")
+
+
+
+
+
+
+
+# Zadanie
+
+x = int(input("Podaj liczbę"))
+z = int(input("Podaj drugą liczbę"))
+if (1.3*z > x):
+  print("TAK")
+else:
+  print("NIE")
