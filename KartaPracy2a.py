@@ -40,7 +40,8 @@
 # if (c < a and c < b and c < d ): print("Najmniejszą z nich jest",c)
 # else:
 #   if (d < a and d < c and d < c ): print("Najmniejszą z nich jest",d)
-
+# if a == b and a == c and a == d:
+#   print("Podane liczby są takie same")
 #Zad. 5
 # a = int(input("Podaj pierwszy bok:"))
 # b = int(input("Podaj drugi bok:"))
