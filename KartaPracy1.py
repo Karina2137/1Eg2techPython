@@ -27,3 +27,10 @@
 # a = int(input())
 # b = int(input())
 # print(a%b)
+
+n = int(input())
+suma=0
+for i in range(1,n+1):
+  liczba= int(input())
+  suma+=liczba
+  print("suma =",suma)
