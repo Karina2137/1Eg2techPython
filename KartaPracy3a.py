@@ -11,14 +11,50 @@
 #     print("||",end="")
 #   else:
 #     print("--",end="")
-# ----
+
 # Zad.3
 # n = int(input())
 # for i in range(1,n+1):
 #   print("*", end="")
-#   if i%2:
+#   if i%2==1:
 #     print("|"*i, end="")
 #   else:
 #     print("-"*i, end="")
 
-# Zad.4
+# PRE - Tabliczka mnoZenia
+for i in range(1,11):
+  for j in range(1,11):
+    print(i*j, end="\t")
+  print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n = int(input())
+for i in range (1000):
+  if (n%10)**2 == n :
+    print(i)
