@@ -40,11 +40,14 @@
 # print("suma =",suma)
 
 #Zad.8
-# W0 = int(input("Podaj kwotę wejściową:"))
-# L = float(input("Podaj okres inwestycji:"))
-# for i in range():
-  
-# print("Wartość inwestycji wynosi:")
+W0 = int(input("Podaj kwotę wejściową:"))
+L = int(input("Podaj okres inwestycji:"))
+Wk = 0
+suma = W0
+for i in range(0,(L*12)):
+ Wk = W0 * 0,6 *(1/12)
+    suma += Wk
+print("Wartość inwestycji wynosi:",Wk)
 
 # Zad.9
 # n = int(input("Ile liczb:"))
@@ -58,3 +61,4 @@
 # for i in range (1000):
 #   if (n%10)**2 == n :
 #     print(i)
+
