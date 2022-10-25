@@ -30,31 +30,3 @@ for i in range(1,11):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-n = int(input())
-for i in range (1000):
-  if (n%10)**2 == n :
-    print(i)
