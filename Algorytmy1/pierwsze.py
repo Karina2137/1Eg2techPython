@@ -21,17 +21,39 @@
 #   print("Liczba jest pierwsza")
 # else:
 #   print("Liczba nie jest pierwsza")
+
 # # WERSJA3
-from math import sqrt
-n = int(input("Podaj liczbę:"))
-for i in range(2,int(sqrt(n))+1):
-  if n%i==0:
-    print("Liczba nie jest pierwsza")
-    exit(0)
-print("Liczba jest pierwsza") 
+# from math import sqrt
+# n = int(input("Podaj liczbę:"))
+# for i in range(2,int(sqrt(n))+1):
+#   if n%i==0:
+#     print("Liczba nie jest pierwsza")
+#     exit(0)
+# print("Liczba jest pierwsza") 
 
 # 2. Generator liczb pierwszych - liczby pierwsze w rszedziale [p, q]
 
-
+# p, q = map(int, input().split())
+# for i in range(p, q+1):
+#   flaga = True
+#   for j in range(2, int(i**0.5)+1):
+#     if j % i == 0:
+#       flaga = False
+#   if flaga:
+#     print(i, end=" ")
 
 # 3. Generator liczb pierwszych - początkowe k liczb pierwszych
+
+# n = int(input())
+# x = 2
+# while 1:
+#   flaga = True
+#   for i in range(2,int(x**0.5)+1):
+#     if x % i == 0:
+#       flaga = False
+#   if flaga:
+#     print(x, end=" ")
+#     n -= 1    
+#     if n == 0:
+#       break
+#   x = x + 1 
