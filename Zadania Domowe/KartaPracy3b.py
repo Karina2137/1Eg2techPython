@@ -40,25 +40,27 @@
 # print("suma =",suma)
 
 #Zad.8
-W0 = int(input("Podaj kwotę wejściową:"))
-L = int(input("Podaj okres inwestycji:"))
-Wk = 0
-suma = W0
-for i in range(0,(L*12)):
- Wk = W0 * 0,6 *(1/12)
-    suma += Wk
-print("Wartość inwestycji wynosi:",Wk)
+# W0 = int(input("Podaj kwotę wejściową:"))
+# L = int(input("Podaj okres inwestycji:"))
+# Wk = 0
+# suma = W0
+# for i in range(0,(L*12)):
+#   Wk = W0 * 0,6 *(1/12)
+#   suma += Wk
+# print("Wartość inwestycji wynosi:",Wk)
 
 # Zad.9
 # n = int(input("Ile liczb:"))
-# suma = 0 
-# for i in range(21,,100):
-#    suma += i
+# o = 21
+# suma = 0
+# for i in range(0, n+1):
+#   for j in range(0,i,o):
+#     suma += o
+#     o += 100
 # print("suma =",suma)
 
 # Zad.10
-# n = int(input())
-# for i in range (1000):
-#   if (n%10)**2 == n :
+# from math import sqrt
+# for i in range (1,1000):
+#   if i%10 == sqrt(i) or i%100 == sqrt(i):
 #     print(i)
-
