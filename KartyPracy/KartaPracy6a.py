@@ -1,63 +1,47 @@
-# print("Zadanie 1")
-# x = int(input())
-# wynik = 0 
-# while x > 0:
-#   wynik = wynik + x%10
-#   x = x // 10
-# print(wynik)
+# Zad 1
 
-# print()
+# n = int(input())
+# suma = 0
+# while n > 0:
+#     suma = suma + n%10
+#     n = n // 10
+# print(suma)
 
-# print("Zadanie 2")
-# from math import sqrt
-# a = int(input())
-# for i in range(2,):
+# Zad 3 - 6 28 496 8128 
 
-
-
-
-  
-
-# print()
-
-# print("Zadanie 3")
 # n = int(input())
 # suma = 0
 # for i in range(1,n):
-#   if n % i == 0:
-#     suma += i
+#     if n % i == 0:
+#         suma += i
 # if suma == n:
-#   print("Liczba jest doskonała")
+#     print("Liczba jest doskonała")
 # else:
-#   print("Liczba nie jest doskonała
+#     print("Nie jest doskonała")
 
-# print("Zadanie 5")
-h = int(input())
-for i in range(10,20):
-  x = h 
-  y = i
-  while y > 0 :
-    x, y =y, x % y
-  if x == 1:
-    print(n,i)
-
-# print("Zadanie 6")
-n = int(input())
-n = int(input())
-
-
-
-
-
-
-
-
-
+# Zad 5
 
 # n = int(input())
-# flaga = True
-# for i in range(2, n):
-#   if n % i==0:
-#     flaga=False
-# if flaga:
-#   print("l")
+
+# for i in range(10,20):
+#     x = n
+#     y = i
+#     while y > 0:
+#         x, y = y, x % y
+#     if x == 1:
+#         print(f"Mamy parkę: {n}, {i}")
+
+# Zad 6
+
+# a = int(input())
+# b = int(input())
+
+# x, y = a, b
+# while x!=y:
+#     if x>y: x -= y
+#     if y>x: y -= x
+
+# c = a//x
+# d = b//x
+
+# print(f"{a}/{b} = {c}/{d}")
