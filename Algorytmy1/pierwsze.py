@@ -31,7 +31,7 @@
 #     exit(0)
 # print("Liczba jest pierwsza") 
 
-# 2. Generator liczb pierwszych - liczby pierwsze w rszedziale [p, q]
+# 2. Generator liczb pierwszych - liczby pierwsze w przedziale [p, q]
 
 # p, q = map(int, input().split())
 # for i in range(p, q+1):

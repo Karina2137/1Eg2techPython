@@ -7,6 +7,15 @@
 #     n = n // 10
 # print(suma)
 
+# Zad 2
+
+# n = int(input())
+# for i in range(2,n):
+#   if n%i==0:
+#     print("Liczba nie jest pierwsza")
+#     exit(0)
+# print("Liczba jest pierwsza")
+
 # Zad 3 - 6 28 496 8128 
 
 # n = int(input())
@@ -18,6 +27,17 @@
 #     print("Liczba jest doskonała")
 # else:
 #     print("Nie jest doskonała")
+
+# Zad 4
+
+# x = int(input())
+# y = int(input())
+# while y > 0:
+#   x, y = y, x % y
+# if x==1:
+#   print("TAK")
+# else:
+#   print("NIE")
 
 # Zad 5
 
@@ -45,3 +65,6 @@
 # d = b//x
 
 # print(f"{a}/{b} = {c}/{d}")
+
+# Zad 7
+
