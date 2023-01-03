@@ -37,8 +37,8 @@
 
 # zaszyfruj napis Cezarem w kluczu = 3
 
-napis = input()
-szyfr = ""
-for i in range(len(napis)):
-    szyfr = szyfr + chr( 65 + (ord(napis[i]) - 65 + 3) % 26)
-print(napis, szyfr)
+# napis = input()
+# szyfr = ""
+# for i in range(len(napis)):
+#     szyfr = szyfr + chr( 65 + (ord(napis[i]) - 65 + 3) % 26)
+# print(napis, szyfr)
