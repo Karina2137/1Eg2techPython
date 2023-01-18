@@ -50,4 +50,10 @@
 # print(suma)
 
 # Zad 8
-
+n = int(input())
+suma = 0
+a = 2
+for i in range(n+1):
+  a
+  suma+=a
+print(suma)
