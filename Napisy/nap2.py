@@ -11,11 +11,11 @@
 #   print("Nie")
 
 # Anagram przez tablicę
-a, b = input(), input()
-X, Y = [0] * 150, [0] * 150
-for i in range(len(a)):
-  X[ord(a[i])] += 1 
-for i in range(len(b)):
-  Y[ord(b[i])] += 1
-if X == Y:    print("Tak")
-else:         print("Nie")
+# a, b = input(), input()
+# X, Y = [0] * 150, [0] * 150
+# for i in range(len(a)):
+#   X[ord(a[i])] += 1 
+# for i in range(len(b)):
+#   Y[ord(b[i])] += 1
+# if X == Y:    print("Tak")
+# else:         print("Nie")
