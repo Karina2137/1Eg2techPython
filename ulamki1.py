@@ -25,14 +25,14 @@
 #     bd, f = f, bd % f
 #     wm = iloczyn//f
 # print(wm)
-for i in range(2,10000):
-  suma=0
-  for j in range(1,i):
-    if i%j==0:
-      suma1 +=j
-  suma2=0
-  for k in range(1,suma1):
-    if suma1%k==0:
-      suma2+=k
-  if suma1 == suma2:
-    print(f"({suma 1},{suma2})")
+# for i in range(2,10000):
+#   suma=0
+#   for j in range(1,i):
+#     if i%j==0:
+#       suma1 +=j
+#   suma2=0
+#   for k in range(1,suma1):
+#     if suma1%k==0:
+#       suma2+=k
+#   if suma1 == suma2:
+#     print(f"({suma 1},{suma2})")
