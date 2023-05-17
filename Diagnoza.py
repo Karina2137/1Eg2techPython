@@ -98,25 +98,32 @@
 #   szyfr = szyfr + chr(65 + (ord(s[i]) - 65 + k) % 26)
 # print(s, szyfr)
 # print()
-# # 5. Dodaj dwa ułamki a/b + c/d. Zapisz sumę jako ułamek nieskracalny i liczbę mieszaną.
-# print("Zadanie 5")
-# a, b, c, d = int(input()), int(input()), int(input()), int(input())
-# g = b
-# h = d
-# i = b*d
-# while h > 0:
-#   g, h = h, g % h
-# nww = i//g
-# e = (nww // b) * a
-# f = (nww // d) * c
-# j = e + f
-# k = j // nww
-# l = j % nww
-# if j < nww:
-#   print(f"{a}/{b} + {c}/{d} = {e}/{nww} + {f}/{nww} = {j}/{nww}")
-# else:
-#   print(f"{a}/{b} + {c}/{d} = {e}/{nww} + {f}/{nww} = {j}/{nww} = {k} {l}/{nww}")
-# print()
+# # 5. Dodaj dwa ułamki a/b + c/d. Zapisz sumę jako ułamek nieskracalny i liczbę mieszaną.DO DOKOŃCZENIA
+print("Zadanie 5")
+a, b, c, d = int(input()), int(input()), int(input()), int(input())
+g = b
+h = d
+i = b*d
+while h > 0:
+  g, h = h, g % h
+nww = i//g
+e = (nww // b) * a
+f = (nww // d) * c
+j = e + f
+m = j
+n = nww
+while n > 0:
+  m, n = n, m % n
+nwd = m
+k = j // nww
+l = j % nww
+o = l%nwd
+p = nww//nwd
+if j < nww:
+  print(f"{a}/{b} + {c}/{d} = {e}/{nww} + {f}/{nww} = {j}/{nww}")
+else:
+  print(f"{a}/{b} + {c}/{d} = {e}/{nww} + {f}/{nww} = {j}/{nww} = {j%nwd}/{nww//nwd} = {k} {l}/{nww} = {k} {o}/{p} ")
+print()
 # # 6. Znajdź NWW dwóch wpisanych przez usera liczb
 # print("Zadanie 6")
 # p, r = int(input()), int(input())
